@@ -4,98 +4,55 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.main-head {
-  grid-area: header;
-  background-color: blue;
-}
-
-.content {
-  grid-area: content;
-  background-color: lightblue;
-}
-
-.content2 {
-  grid-area: content2;
-  background-color: lightgreen;
-}
-
-.main-nav {
-  grid-area: nav;
+.rowStyle {
   display: flex;
-  background-color: red;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.content3 {
-  grid-area: content3;
-  background-color: orange;
-}
-.content4 {
-  grid-area: content4;
-  background-color: pink;
-}
-.main-footer {
-  grid-area: footer;
-  background-color: grey;
+.columnStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.overview {
-  grid-area: overview;
-  background-color: purple;
+/*Navigation*/
+.navStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 20px;
+  margin-right: 50px;
 }
 
-.wrapper {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-areas:
-    "header"
-    "nav"
-    "overview"
-    "content"
-    "content2"
-    "content3"
-    "content4"
-    "footer";
-  background-color: green;
+ul > li {
+  margin-top: 30px;
 }
 
-@media (min-width: 700px) {
-  .wrapper {
-    grid-template-columns: 3fr 2fr;
-    grid-template-areas:
-      "header header"
-      "nav nav"
-      "overview overview"
-      "content content3"
-      "content content3"
-      "content2 content4"
-      "content2 content4"
-      "footer footer";
-  }
-  nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+@media (max-width: 1100px)  {
+.navStyle {
+    flex-direction: column;
   }
 }
 
-@media (min-width: 1100px) {
-  .wrapper {
-    height:100vh;
-    width: 100vw;
-    grid-template-columns: 1fr 3fr 2fr;
-    grid-template-areas:
-      "nav    header  header"
-      "nav    overview overview"
-      "nav    content content3"
-      "nav    content content3"
-      "nav    content2 content4"
-      "nav    content2 content4"
-      "nav    footer  footer"
-   }
-   nav ul {
-     display:flex;
-     flex-direction: column;
-     justify-content: space-around;
-     align-items: left;
-   }
+/*Overview*/
+.overviewDateStyle {
+  margin-right: 20px;
+}
+
+.overviewDateContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.overviewCardStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
 }

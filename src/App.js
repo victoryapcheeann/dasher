@@ -1,25 +1,51 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Grid.css';
+import './Nav&Profile.css';
 
 class App extends Component {
   render() {
     return (
       <div className="wrapper">
-              <header className="main-head">The header</header>
+              <header className="main-head">
+                <div>
+                  The search bar
+                </div>
+                <div>
+                  <span>The bell</span>
+                  <button>LOG OUT</button>
+                </div>
+              </header>
               <nav className="main-nav">
-                  <ul>
-                      <li><a href="">Nav 1</a></li>
-                      <li><a href="">Nav 2</a></li>
-                      <li><a href="">Nav 3</a></li>
-                      <li><a href="">Nav 1</a></li>
-                      <li><a href="">Nav 2</a></li>
-                      <li><a href="">Nav 1</a></li>
-                      <li><a href="">Nav 2</a></li>
-                      <li><a href="">Nav 3v 3</a></li>
+                  <div className="columnStyle">
+                    <h2>Dasher</h2>
+                    <img src='./image.png' />
+                    <h3>Ann Colins</h3>
+                    <span>Super Saver</span>
+                    <button>Upgrade to pro</button>
+                    <span>437</span>
+                    <span>savings completed</span>
+                  </div>
+                  <ul className="navStyle">
+                      <li><a href="">Purchases</a></li>
+                      <li><a href="">Clients</a></li>
+                      <li><a href="">Company</a></li>
+                      <li><a href="">Statistics</a></li>
+                      <li><a href="">Incomes</a></li>
+                      <li><a href="">Livechat</a></li>
                   </ul>
               </nav>
               <div className="overview">
-                Overview
+                <div className='overviewDateContainer'>
+                  <div className="overviewDateStyle">Date & Time</div>
+                  <div>Drop down</div>
+                </div>
+                <div className="overviewCardStyle">
+                  <div>Graph/Data</div>
+                  <div>Graph/Data</div>
+                  <div>Graph/Data</div>
+                  <div>Graph/Data</div>
+                </div>
               </div>
               <div className="content">
                   <h1>Main article area</h1>
