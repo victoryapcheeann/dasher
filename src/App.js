@@ -6,12 +6,16 @@ class App extends Component {
     return (
       <div className="wrapper">
               <header className="main-head">The header</header>
-              <div className="profile">Profile</div>
               <nav className="main-nav">
                   <ul>
                       <li><a href="">Nav 1</a></li>
                       <li><a href="">Nav 2</a></li>
                       <li><a href="">Nav 3</a></li>
+                      <li><a href="">Nav 1</a></li>
+                      <li><a href="">Nav 2</a></li>
+                      <li><a href="">Nav 1</a></li>
+                      <li><a href="">Nav 2</a></li>
+                      <li><a href="">Nav 3v 3</a></li>
                   </ul>
               </nav>
               <div className="overview">
