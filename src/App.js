@@ -1,38 +1,63 @@
 import React, { Component } from 'react';
 import './App.css';
 import './Grid.css';
-import './Nav&Profile.css';
+
+import FaCartArrowDown from 'react-icons/lib/fa/money'
+import FaUserPlus from 'react-icons/lib/fa/user-plus'
+import FaBank from 'react-icons/lib/fa/bank'
+import FaBarChart from 'react-icons/lib/fa/bar-chart'
+import FaMoney from 'react-icons/lib/fa/money'
+import FaWechat from 'react-icons/lib/fa/wechat'
+import FaSearch from 'react-icons/lib/fa/search'
+import FaBellO from 'react-icons/lib/fa/bell-o'
+import MdHelpOutline from 'react-icons/lib/md/help-outline'
 
 class App extends Component {
   render() {
     return (
       <div className="wrapper">
               <header className="main-head">
-                <div>
-                  The search bar
+                <div className="searchBarStyle">
+                  <FaSearch size={15} color={"grey"} className="searchIcon"/>
                 </div>
-                <div>
-                  <span>The bell</span>
-                  <button>LOG OUT</button>
+                <div className="logOutStyle">
+                  <MdHelpOutline size={15} color={"grey"} style={{paddingRight: '30px'}}/>
+                  <FaBellO  size={15} color={"grey"}/>
+                  <button className="logOutButton">LOG OUT</button>
                 </div>
               </header>
               <nav className="main-nav">
-                  <div className="columnStyle">
-                    <h2>Dasher</h2>
-                    <img src='./image.png' />
-                    <h3>Ann Colins</h3>
-                    <span>Super Saver</span>
-                    <button>Upgrade to pro</button>
-                    <span>437</span>
-                    <span>savings completed</span>
+                  <div className="profileContainer">
+                    <div className="profileStyle">
+                      <img className="profilePic" src='./image.png'/>
+                      <div className="rowStyle">
+                        <span className="nameStyle">Ann Colins</span>
+                        <div className="circle"></div>
+                      </div>
+                      <span style={{color: 'grey'}}>Money Manager</span>
+                    </div>
+                    <div className="profileDetailsStyle">
+                      <button className="navBtnStyle">Upgrade to PRO</button>
+                      <span>
+                        <span className="navNumberStyle">437</span>
+                        <span className="navTextStyle">savings</span> <br/>
+                        <span className="navTextStyle" style={{marginLeft: '10px'}}>completed</span>
+                      </span>
+                    </div>
                   </div>
-                  <ul className="navStyle">
-                      <li><a href="">Purchases</a></li>
-                      <li><a href="">Clients</a></li>
-                      <li><a href="">Company</a></li>
-                      <li><a href="">Statistics</a></li>
-                      <li><a href="">Incomes</a></li>
-                      <li><a href="">Livechat</a></li>
+                  <ul className="navStyle" style={{listStyle:'none'}}>
+                      <li className="navItem"><FaCartArrowDown size={30} color={"grey"} className="navIcon"/>
+                        Purchases</li>
+                      <li className="navItem"><FaUserPlus size={30} color={"grey"} className="navIcon"/>
+                        Clients</li>
+                      <li className="navItem"><FaBank size={30} color={"grey"} className="navIcon"/>
+                        Loans</li>
+                      <li className="navItem"><FaBarChart size={30} color={"grey"} className="navIcon"/>
+                        Statistics</li>
+                      <li className="navItem"><FaMoney size={30} color={"grey"} className="navIcon"/>
+                        Incomes</li>
+                      <li className="navItem"><FaWechat size={30} color={"grey"} className="navIcon"/>
+                        Livechat</li>
                   </ul>
               </nav>
               <div className="overview">
