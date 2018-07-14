@@ -1,0 +1,17 @@
+.overviewDateStyle {
+  margin-right: 20px;
+}
+
+.overviewDateContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.overviewCardStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}

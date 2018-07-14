@@ -1,0 +1,39 @@
+.subHeadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.searchBarStyle {
+  width: 30%;
+  border-radius: 12px;
+  border:1px solid lightgrey;
+  height: 30px;
+}
+
+.logOutButton {
+  border-radius: 12px;
+  border:2px solid #00ffe9;
+  width: 100px;
+  height: 30px;
+  color: #00ffe9;
+  font-weight: 650;
+  margin-right: 50px;
+  margin-left: 25px;
+}
+
+.profilePic {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+}
+
+.searchIcon {
+  margin-left: 90%;
+  margin-top: 7px;
+}
