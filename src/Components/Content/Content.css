@@ -1,0 +1,7 @@
+.content1SubCotainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+}

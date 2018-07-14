@@ -5,7 +5,12 @@ import './AppStyling/Queries.css';
 
 import MainHead from './Components/MainHead/MainHead';
 import MainNav from './Components/MainNav/MainNav';
+import MainFooter from './Components/MainFooter/MainFooter';
 import Overview from './Components/Overview/Overview'
+import Content from './Components/Content/Content';
+import Content2 from './Components/Content2/Content2';
+import Content3 from './Components/Content3/Content3';
+import Content4 from './Components/Content4/Content4';
 
 class App extends Component {
   render() {
@@ -21,21 +26,19 @@ class App extends Component {
                 <Overview />
               </div>
               <div className="content">
-                  <h1>Main article area</h1>
-                  <p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p>
+                <Content />
               </div>
               <div className="content2">
-                  <h1>Main article area</h1>
-                  <p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p>
+                <Content2 />
               </div>
               <div className="content3">
-                content3
+                <Content3 />
               </div>
               <div className="content4">
-                content4
+                <Content4 />
               </div>
               <footer className="main-footer">
-                The footer
+                <MainFooter />
               </footer>
       </div>
     );

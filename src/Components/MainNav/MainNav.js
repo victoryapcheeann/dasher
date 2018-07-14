@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import './MainNav.css';
 
 import FaCartArrowDown from 'react-icons/lib/fa/money'
