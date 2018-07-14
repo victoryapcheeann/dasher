@@ -1,6 +1,5 @@
 .wrapper {
   display: grid;
-  grid-gap: 20px;
   grid-template-areas:
     "header"
     "nav"
@@ -24,7 +23,11 @@
 .main-nav {
   grid-area: nav;
   display: flex;
-  box-shadow: 10px 10px 25px 1px rgba(0,0,0,0.31);
+  width: 100%;
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height:auto;
 }
 
 .overview {

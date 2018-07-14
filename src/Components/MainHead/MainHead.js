@@ -1,23 +1,50 @@
 import React, { Component } from 'react';
 import './MainHead.css';
+import './Queries.css';
+import './Icon.css';
 
-import FaSearch from 'react-icons/lib/fa/search'
-import FaBellO from 'react-icons/lib/fa/bell-o'
 import MdHelpOutline from 'react-icons/lib/md/help-outline'
+import FaLineChart from 'react-icons/lib/fa/line-chart'
+import MdMailOutline from 'react-icons/lib/md/mail-outline'
 
 class MainHead extends Component{
+  constructor(props) {
+    super(props);
+    this.state = {condition: false};
+  }
+
+  handleClick() {
+    this.setState({
+      condition: !this.state.condition
+    })
+  }
+
   render() {
     return (
       <div className="subHeadContainer">
-        <div className="searchBarStyle">
-          <FaSearch size={15} color={"grey"} className="searchIcon"/>
+        <div className="rowStyle">
+          <div>
+            <div className="dashboard"></div>
+          </div>
+          Dasher
+        </div>
+        <div className="headerIconContainer">
+          <div className="headIconPaddingStyle">
+            <MdHelpOutline size={20} color={"white"} className="headIconStyle"/>
+            <span>Help</span>
+          </div>
+          <div className="headIconPaddingStyle">
+            <FaLineChart size={20} color={"white"} className="headIconStyle"/>
+            <span>Analyse</span>
+          </div>
+          <div className="headIconPaddingStyle">
+            <MdMailOutline size={20} color={"white"} className="headIconStyle"/>
+            <span>Inbox</span>
+          </div>
         </div>
         <div className="rowStyle">
-          <MdHelpOutline size={15} color={"grey"} style={{paddingRight: '30px'}}/>
-          <FaBellO  size={15} color={"grey"}/>
-          <button className="logOutButton">LOG OUT</button>
-          <img className="profilePic" src='./image.png'/>
-          <span>Ann</span>
+          <img className="profilePic iconPaddingStyle" src='./image.png'/>
+          <span>Colin Ann</span>
         </div>
       </div>
     );

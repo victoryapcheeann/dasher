@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './MainNav.css';
+import './Queries.css'
 
 import FaCartArrowDown from 'react-icons/lib/fa/money'
 import FaUserPlus from 'react-icons/lib/fa/user-plus'
@@ -11,20 +12,28 @@ import FaWechat from 'react-icons/lib/fa/wechat'
 class mainNav extends Component {
   render() {
     return (
-      <div className="subMainNav">
+      <div className="subNavContainer">
         <ul className="navStyle" style={{listStyle:'none'}}>
-            <li className="navItem"><FaCartArrowDown size={30} color={"grey"} className="navIcon"/>
-              <br/> Purchases</li>
-            <li className="navItem"><FaUserPlus size={30} color={"grey"} className="navIcon"/>
-              Clients</li>
-            <li className="navItem"><FaBank size={30} color={"grey"} className="navIcon"/>
-              Loans</li>
-            <li className="navItem"><FaBarChart size={30} color={"grey"} className="navIcon"/>
-              Statistics</li>
-            <li className="navItem"><FaMoney size={30} color={"grey"} className="navIcon"/>
-              Incomes</li>
-            <li className="navItem"><FaWechat size={30} color={"grey"} className="navIcon"/>
-              Livechat</li>
+            <li className="navItemStyle">
+              <FaCartArrowDown size={30} color={"white"} className="navIconStyle"/>
+              Purchases
+            </li>
+            <li className="navItemStyle">
+              <FaUserPlus size={30} color={"white"} className="navIconStyle"/>
+              Clients
+            </li>
+            <li className="navItemStyle">
+              <FaBank size={30} color={"white"} className="navIconStyle"/>
+              Loans
+            </li>
+            <li className="navItemStyle">
+              <FaBarChart size={30} color={"white"} className="navIconStyle"/>
+              Statistics
+            </li>
+            <li className="navItemStyle">
+              <FaMoney size={30} color={"white"} className="navIconStyle"/>
+              Incomes
+            </li>
         </ul>
       </div>
     );
