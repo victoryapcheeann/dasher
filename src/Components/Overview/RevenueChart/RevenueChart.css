@@ -1,0 +1,22 @@
+.revenueChartContainer {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.revenueChartStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.revenueChartDescriptionStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.revenueChartIconStyle {
+  margin-left: 10px;
+}

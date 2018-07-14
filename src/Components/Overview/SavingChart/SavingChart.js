@@ -20,7 +20,7 @@ class SavingChart extends Component {
             <span className>Yearly Savings</span>
             <div className="rowStyle">
               <div className="savingChartDescriptionStyle">
-                <span className='savingChartIncreaseColor'>2018: $16,344</span>
+                <span className='textIncreaseColor'>2018: $16,344</span>
                 <span>2017: $8,172</span>
               </div>
               <div className="savingChartIconStyle">

@@ -10,6 +10,7 @@ import Overview from './Components/Overview/Overview'
 import Content from './Components/Content/Content';
 import Content2 from './Components/Content2/Content2';
 import Content3 from './Components/Content3/Content3';
+import Content4 from './Components/Content4/Content4';
 
 class App extends Component {
   render() {
@@ -32,6 +33,9 @@ class App extends Component {
               </div>
               <div className="content3">
                 <Content3 />
+              </div>
+              <div className="content4">
+                <Content4 />
               </div>
               <footer className="main-footer">
                 <MainFooter />

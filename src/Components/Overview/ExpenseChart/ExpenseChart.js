@@ -21,7 +21,7 @@ class ExpenseChart extends Component {
             <span className>Yearly Expense</span>
             <div className="rowStyle">
               <div className="expenseChartDescriptionStyle">
-                <span className='expenseChartIncreaseColor'>2018: $5,344</span>
+                <span className='textDecreaseColor'>2018: $5,344</span>
                 <span>2017: $8,172</span>
               </div>
               <div className="expenseChartIconStyle">

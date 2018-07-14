@@ -20,3 +20,15 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
+.textNoChangeColor {
+  color: #ffecd2
+}
+
+.textIncreaseColor {
+  color: lightgreen;
+}
+
+.textDecreaseColor {
+  color: #ed6ea0;
+}

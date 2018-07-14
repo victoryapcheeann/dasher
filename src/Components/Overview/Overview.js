@@ -4,7 +4,7 @@ import './Queries.css';
 
 import ExpenseChart from './ExpenseChart/ExpenseChart';
 import SavingChart from './SavingChart/SavingChart';
-import MiniPieChart from './MiniPieChart/MiniPieChart';
+import RevenueChart from './RevenueChart/RevenueChart';
 
 class Overview extends Component{
   render() {
@@ -18,7 +18,7 @@ class Overview extends Component{
             <SavingChart />
           </div>
           <div className="overviewGraphContainerStyle">
-            <MiniPieChart />
+            <RevenueChart />
           </div>
         </div>
       </div>

@@ -1,7 +1,35 @@
-.content1SubCotainer {
+.contentChartContainer {
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 80%;
+  border-radius: 48px;
+  background-color: Midnightblue;
+  box-shadow: 10px 10px 5px 0px #b490ca;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100%;
+}
+
+.contentChartStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.contentChartDescriptionStyle {
+  display: flex;
+  align-items: flex-start;
   justify-content: center;
-  width: auto;
-  margin: auto;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.contentChartIconStyle {
+  margin-left: 10px;
+  color: #ffecd2;
 }

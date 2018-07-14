@@ -25,8 +25,8 @@
             animation: dashboard_hand 2s linear infinite alternate;
 }
 .dashboard:before{
-    width: 32px;
-    height: 10px;
+    width: 40px;
+    height: 15px;
     background-color: rgba(255,255,255,1);
     top:20px;
     left: -2px;

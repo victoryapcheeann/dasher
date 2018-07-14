@@ -7,6 +7,7 @@
     "content"
     "content2"
     "content3"
+    "content4"
     "footer";
 }
 
@@ -31,10 +32,12 @@
 
 .overview {
   grid-area: overview;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 .content {
   grid-area: content;
+  background-image: linear-gradient(to top, #330867 0%, #30cfd0 100%);
 }
 
 .content2 {
@@ -43,6 +46,11 @@
 
 .content3 {
   grid-area: content3;
+}
+
+.content4 {
+  grid-area: content4;
+  background-color: green;
 }
 
 .main-footer {
