@@ -15,23 +15,23 @@ class mainNav extends Component {
       <div className="subNavContainer">
         <ul className="navStyle" style={{listStyle:'none'}}>
             <li className="navItemStyle">
-              <FaCartArrowDown size={30} color={"white"} className="navIconStyle"/>
+              <FaCartArrowDown size={20} color={"white"} className="navIconStyle"/>
               Purchases
             </li>
             <li className="navItemStyle">
-              <FaUserPlus size={30} color={"white"} className="navIconStyle"/>
+              <FaUserPlus size={20} color={"white"} className="navIconStyle"/>
               Clients
             </li>
             <li className="navItemStyle">
-              <FaBank size={30} color={"white"} className="navIconStyle"/>
+              <FaBank size={20} color={"white"} className="navIconStyle"/>
               Loans
             </li>
             <li className="navItemStyle">
-              <FaBarChart size={30} color={"white"} className="navIconStyle"/>
+              <FaBarChart size={20} color={"white"} className="navIconStyle"/>
               Statistics
             </li>
             <li className="navItemStyle">
-              <FaMoney size={30} color={"white"} className="navIconStyle"/>
+              <FaMoney size={20} color={"white"} className="navIconStyle"/>
               Incomes
             </li>
         </ul>

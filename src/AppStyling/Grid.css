@@ -7,7 +7,6 @@
     "content"
     "content2"
     "content3"
-    "content4"
     "footer";
 }
 
@@ -32,29 +31,20 @@
 
 .overview {
   grid-area: overview;
-  background-color: purple;
 }
 
 .content {
   grid-area: content;
-  background-color: lightblue;
 }
 
 .content2 {
   grid-area: content2;
-  background-color: lightgreen;
 }
 
 .content3 {
   grid-area: content3;
-  background-color: orange;
-}
-.content4 {
-  grid-area: content4;
-  background-color: pink;
 }
 
 .main-footer {
   grid-area: footer;
-  background-color: grey;
 }

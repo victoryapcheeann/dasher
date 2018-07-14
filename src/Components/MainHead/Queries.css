@@ -13,4 +13,12 @@
   .headIconPaddingStyle {
     padding: 10px
   }
+
+  .subHeadContainer {
+    font-size: 10px;
+  }
+
+  .headIconStyle {
+    padding-right: 0px
+  }
 }

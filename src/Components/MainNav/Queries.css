@@ -32,9 +32,10 @@
     padding: 0px;
     width: 100%;
   }
-
+  
   .navItemStyle {
     flex-direction: column;
+    font-size: 10px;
   }
 
   .navIconStyle {

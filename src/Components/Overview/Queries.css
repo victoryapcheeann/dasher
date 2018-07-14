@@ -1,0 +1,15 @@
+@media (max-width: 1100px) {
+  .overviewCardStyle {
+    flex-direction: column;
+  }
+
+  .overviewGraphContainerStyle {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 700px) {
+  .overviewGraphContainerStyle {
+    max-width: 90%;
+  }
+}

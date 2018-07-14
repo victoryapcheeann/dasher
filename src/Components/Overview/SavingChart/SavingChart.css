@@ -1,0 +1,27 @@
+.savingChartContainer {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.savingChartStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.savingChartDescriptionStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.savingChartIncreaseColor {
+  color: lightgreen;
+}
+
+.savingChartIconStyle {
+  margin-left: 10px;
+  color: lightgreen;
+}

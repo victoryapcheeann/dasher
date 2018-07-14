@@ -1,0 +1,27 @@
+.expenseChartContainer {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.expenseChartStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.expenseChartDescriptionStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.expenseChartIncreaseColor {
+  color: #ed6ea0;
+}
+
+.expenseChartIconStyle {
+  margin-left: 10px;
+  color: #ed6ea0;
+}
