@@ -1,7 +1,7 @@
 .dashboard{
     width: 32px;
     height: 32px;
-    border: 2px rgba(255,255,255,1) solid;
+    border: 2px black solid;
     border-radius: 100%;
     position: relative;
     overflow: hidden;
@@ -19,7 +19,7 @@
     -webkit-transform-origin: 1px 1px;
        -moz-transform-origin: 1px 1px;
             transform-origin: 1px 1px;
-    background-color: rgba(255,255,255,1);
+    background-color: black;
     -webkit-animation: dashboard_hand 2s linear infinite alternate;
        -moz-animation: dashboard_hand 2s linear infinite alternate;
             animation: dashboard_hand 2s linear infinite alternate;
@@ -27,7 +27,7 @@
 .dashboard:before{
     width: 40px;
     height: 15px;
-    background-color: rgba(255,255,255,1);
+    background-color: black;
     top:20px;
     left: -2px;
 }

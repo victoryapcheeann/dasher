@@ -5,7 +5,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  background-color: #764ba2;
+  border-right: 1px solid black;
 }
 
 .navStyle {
@@ -20,7 +20,6 @@
 }
 
 .navItemStyle {
-  font-size: 12px;
   margin-bottom: 40px;
   display: flex;
   justify-content: center;

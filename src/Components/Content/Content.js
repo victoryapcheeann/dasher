@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Content.css';
 import './Queries.css';
+import themeColor from '../../Color'
 
 import { BarChart, Bar, ReferenceLine, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 
@@ -19,17 +20,15 @@ class Content extends Component {
         <div className="contentChartContainer">
           <BarChart width={300} height={200} data={data}
                     margin={{top: 5, right: 30, left: 20, bottom: 5}}>
-               <XAxis dataKey="name" tick={{ fill: 'white' }} stroke="white"/>
-               <YAxis tick={{ fill: 'white' }} stroke="white"/>
+               <XAxis dataKey="name" stroke="black"/>
+               <YAxis stroke="black"/>
                <Tooltip
                 cursor={false}
-                itemStyle={{backgroundColor: '#432c39', margin:'15px -15px -15px -15px', padding:'5px'}}
-                labelStyle={{backgroundColor: '#432c39', margin:'-15px', padding: '5px'}}
+                labelStyle={{color: 'black'}}
                />
                <Legend />
-               <ReferenceLine y={0} stroke='white'/>
-               <Bar dataKey="Stock" fill="#45EC99" />
-               <Bar dataKey="Bonds" fill="#FCFC8C" />
+               <Bar dataKey="Stock" fill="#f9d423" />
+               <Bar dataKey="Bonds" fill="#24d292" />
             </BarChart>
           <div className="contentChartStyle">
             <span>Quarterly Performance <br/> Stock & Bond</span>
@@ -37,14 +36,14 @@ class Content extends Component {
               <div className="contentChartDescriptionStyle">
                 <span>Stock</span>
                 <span className="contentChartIconStyle">
-                  <FaArrowCircleOUp size={20} color={"white"}/>
+                  <FaArrowCircleOUp size={20} color={'themeColor'}/>
                   <span>54.64%</span>
                 </span>
               </div>
               <div className="contentChartDescriptionStyle">
                 <span>Bond</span>
                 <span className="contentChartIconStyle">
-                  <FaArrowCircleOUp size={20} color={"white"}/>
+                  <FaArrowCircleOUp size={20} color={'themeColor'}/>
                   <span>4.64%</span>
                 </span>
               </div>

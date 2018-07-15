@@ -21,17 +21,16 @@ class Content2 extends Component {
           <div>
           <AreaChart width={300} height={200} data={data}
             margin={{top: 10, right: 30, left: 0, bottom: 0}}>
-              <XAxis dataKey="name" tick={{ fill: 'white' }} stroke="white"/>
-              <YAxis tick={{ fill: 'white' }} stroke="white"/>
+              <XAxis dataKey="name" stroke="black"/>
+              <YAxis stroke="black"/>
               <Tooltip
                cursor={false}
-               itemStyle={{backgroundColor: '#432c39', margin:'15px -15px -15px -15px', padding:'5px'}}
-               labelStyle={{backgroundColor: '#432c39', margin:'-15px', padding: '5px'}}
+               labelStyle={{color: "black"}}
               />
               <Legend />
-            <Area type='monotone' dataKey='Forex' stackId="1" stroke='#45EC99' fill='#45EC99' className="areaChartContainer"/>
-            <Area type='monotone' dataKey='Futures' stackId="1" stroke='#FCFC8C' fill='#FCFC8C' className="areaChartContainer"/>
-            <Area type='monotone' dataKey='Options' stackId="1" stroke='blueviolet' fill='blueviolet' className="areaChartContainer"/>
+            <Area type='monotone' dataKey='Forex' stackId="1" stroke='#fe5196' fill='#fe5196' className="areaChartContainer"/>
+            <Area type='monotone' dataKey='Futures' stackId="1" stroke='#f4d03f' fill='#f4d03f' className="areaChartContainer"/>
+            <Area type='monotone' dataKey='Options' stackId="1" stroke='#16a085' fill='#16a085' className="areaChartContainer"/>
           </AreaChart>
         </div>
           <div className="content2ChartStyle">
@@ -40,21 +39,21 @@ class Content2 extends Component {
               <div className="content2ChartDescriptionStyle">
                 <span>Forex</span>
                 <span className="content2ChartIconStyle">
-                  <FaArrowCircleOUp size={20} color={"white"}/>
+                  <FaArrowCircleOUp size={20} color={"themeColor"}/>
                   <span>21.34%</span>
                 </span>
               </div>
               <div className="content2ChartDescriptionStyle">
                 <span>Futures</span>
                 <span className="content2ChartIconStyle">
-                  <FaArrowCircleODown size={20} color={"white"}/>
+                  <FaArrowCircleODown size={20} color={"themeColor"}/>
                   <span>42.64%</span>
                 </span>
               </div>
               <div className="content2ChartDescriptionStyle">
                 <span>Options</span>
                 <span className="content2ChartIconStyle">
-                  <FaArrowCircleODown size={20} color={"white"}/>
+                  <FaArrowCircleODown size={20} color={"themeColor"}/>
                   <span>14.64%</span>
                 </span>
               </div>

@@ -30,15 +30,15 @@ class MainHead extends Component{
         </div>
         <div className="headerIconContainer">
           <div className="headIconPaddingStyle">
-            <MdHelpOutline size={20} color={"white"} className="headIconStyle"/>
+            <MdHelpOutline size={20} color={"themeColor"} className="headIconStyle"/>
             <span>Help</span>
           </div>
           <div className="headIconPaddingStyle">
-            <FaLineChart size={20} color={"white"} className="headIconStyle"/>
+            <FaLineChart size={20} color={"themeColor"} className="headIconStyle"/>
             <span>Analyse</span>
           </div>
           <div className="headIconPaddingStyle">
-            <MdMailOutline size={20} color={"white"} className="headIconStyle"/>
+            <MdMailOutline size={20} color={"themeColor"} className="headIconStyle"/>
             <span>Inbox</span>
           </div>
         </div>

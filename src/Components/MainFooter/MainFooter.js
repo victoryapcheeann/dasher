@@ -14,7 +14,7 @@ class MainFooter extends Component {
     return (
       <div>
         <div class="main-wrapper">
-          <div className="footerTitleStyle">Goals & Achievement</div>
+          <div className="footerTitleStyle">Achievement</div>
           <div>
           <div class="badge yellow">
             <div class="circle"><FaMoney size={35} className='medalIconStyle'/></div>

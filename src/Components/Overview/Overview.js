@@ -11,13 +11,13 @@ class Overview extends Component{
     return (
       <div className="subOverviewContainer">
         <div className="overviewCardStyle">
-          <div className="overviewGraphContainerStyle">
+          <div className="overviewGraphContainerStyle overviewGradient1">
             <ExpenseChart />
           </div>
-          <div className="overviewGraphContainerStyle">
+          <div className="overviewGraphContainerStyle overviewGradient2">
             <SavingChart />
           </div>
-          <div className="overviewGraphContainerStyle">
+          <div className="overviewGraphContainerStyle overviewGradient3">
             <RevenueChart />
           </div>
         </div>

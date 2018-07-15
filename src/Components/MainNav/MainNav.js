@@ -9,30 +9,27 @@ import FaBarChart from 'react-icons/lib/fa/bar-chart'
 import FaMoney from 'react-icons/lib/fa/money'
 import FaWechat from 'react-icons/lib/fa/wechat'
 
+import themeColor from '../../Color'
+
 class mainNav extends Component {
   render() {
     return (
       <div className="subNavContainer">
         <ul className="navStyle" style={{listStyle:'none'}}>
             <li className="navItemStyle">
-              <FaCartArrowDown size={20} color={"white"} className="navIconStyle"/>
-              Purchases
+              <FaCartArrowDown size={20} color={'themeColor'} className="navIconStyle"/>
             </li>
             <li className="navItemStyle">
-              <FaUserPlus size={20} color={"white"} className="navIconStyle"/>
-              Clients
+              <FaUserPlus size={20} color={"themeColor"} className="navIconStyle"/>
             </li>
             <li className="navItemStyle">
-              <FaBank size={20} color={"white"} className="navIconStyle"/>
-              Loans
+              <FaBank size={20} color={"themeColor"} className="navIconStyle"/>
             </li>
             <li className="navItemStyle">
-              <FaBarChart size={20} color={"white"} className="navIconStyle"/>
-              Statistics
+              <FaBarChart size={20} color={"themeColor"} className="navIconStyle"/>
             </li>
             <li className="navItemStyle">
-              <FaMoney size={20} color={"white"} className="navIconStyle"/>
-              Incomes
+              <FaMoney size={20} color={"themeColor"} className="navIconStyle"/>
             </li>
         </ul>
       </div>

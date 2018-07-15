@@ -15,8 +15,8 @@ const data02 = [{name: 'Mr Lee', value: 100},
                    {name: 'Bond 1', value: 150},
                    {name: 'Bond 2', value: 50}]
 
-const COLORS01 = ['#0088FE', 'Pink', '#FFBB28', '#FF8042'];
-const COLORS02 = ['#0088FE', 'Pink', '#FFBB28', '#FF8042'];
+const COLORS01 = ['#0088FE', '#e8198b', '#FFBB28', '#FF8042'];
+const COLORS02 = ['#0088FE', '#e8198b', '#FFBB28', '#FF8042'];
 
 class RevenuePieChart extends Component {
   render() {
@@ -25,7 +25,7 @@ class RevenuePieChart extends Component {
           <PieChart width={150} height={90}>
             <Tooltip
              cursor={false}
-             itemStyle={{backgroundColor: '#432c39', margin:'-12px', padding:'5px', color:'white'}}
+             itemStyle={{backgroundColor: 'white', margin:'-12px', padding:'5px', color:'black'}}
             />
             <Pie data={data01} cx={60} cy={40} outerRadius={30} fill="#8884d8">
               {

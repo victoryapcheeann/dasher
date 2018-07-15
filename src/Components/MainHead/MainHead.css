@@ -3,10 +3,8 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-image: linear-gradient(to top, #764ba2 0%, #330867 50%);
+  padding: 20px;
+  border-color: black;
 }
 
 .headerIconContainer {

@@ -27,30 +27,24 @@
   margin-bottom: 0px;
   margin-top: 0px;
   height:auto;
-  box-shadow: 10px 10px 29px 2px #330867;
 }
 
 .overview {
   grid-area: overview;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 .content {
   grid-area: content;
-  background-color: #30cfd0;
 }
 
 .content2 {
   grid-area: content2;
-  background-color: #30cfd0;
 }
 
 .content3 {
   grid-area: content3;
-  background-color: #30cfd0;
 }
 
 .main-footer {
   grid-area: footer;
-  background-color: #30cfd0;
 }

@@ -33,8 +33,8 @@ class ExpenseChart extends Component {
           <LineChart width={300} height={100} data={data}>
             <defs>
               <linearGradient id="CoolGradient" x1="0" x2="1" y1="0" y2="0">
-                <stop offset="0%" stopColor="#ed6ea0" stopOpacity={1}/>
-                <stop offset="100%" stopColor="#ffafbd" stopOpacity={1} />
+                <stop offset="0%" stopColor="#ffafbd" stopOpacity={1}/>
+                <stop offset="100%" stopColor="#ed6ea0" stopOpacity={1} />
               </linearGradient>
               <XAxis/>
             </defs>

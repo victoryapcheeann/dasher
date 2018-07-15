@@ -24,7 +24,7 @@ class SavingChart extends Component {
                 <span>2017: $8,172</span>
               </div>
               <div className="savingChartIconStyle">
-                <FaArrowCircleOUp size={20} color={"lightgreen"}/>
+                <FaArrowCircleOUp size={20} color={"#74ebd5"}/>
                 <span>200%</span>
               </div>
             </div>
@@ -32,7 +32,7 @@ class SavingChart extends Component {
             <LineChart width={300} height={100} data={data}>
               <defs>
                 <linearGradient id="CoolGradient2" x1="0" x2="1" y1="0" y2="0">
-                  <stop offset="0%" stopColor="#DFFFCD" stopOpacity={1}/>
+                  <stop offset="0%" stopColor="lightgreen" stopOpacity={1}/>
                   <stop offset="100%" stopColor="#39F3BB" stopOpacity={1} />
                 </linearGradient>
                 <XAxis/>

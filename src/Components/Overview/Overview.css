@@ -26,6 +26,15 @@
   max-width: 33%;
   margin: 20px;
   border-radius: 48px;
-  background-color: Midnightblue;
-  box-shadow: 10px 10px 5px 0px #c2e9fb;
+}
+.overviewGradient1 {
+  box-shadow: 10px 10px 30px 0px #e7627d;
+}
+
+.overviewGradient2 {
+  box-shadow: 10px 10px 30px 0px #74ebd5;
+}
+
+.overviewGradient3 {
+  box-shadow: 10px 10px 30px 0px #f9d423;
 }

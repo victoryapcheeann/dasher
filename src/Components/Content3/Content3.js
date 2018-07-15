@@ -12,13 +12,13 @@ class Content3 extends Component {
           <div className="content3ChartContainer">
             <div className="columnStyle">
                 <ExpenseTreemap />
-                <span className="content3ChartDescriptionStyle">Weekly Expense <br/> Breakdown</span>
+                <span className="content3ChartDescriptionStyle">Weekly Expense Breakdown</span>
             </div>
           </div>
           <div className="content3ChartContainer">
             <div className="columnStyle">
                 <RevenuePieChart />
-                <span className="content3ChartDescriptionStyle">Weekly Revenue <br/> Breakdown</span>
+                <span className="content3ChartDescriptionStyle">Weekly Revenue Breakdown</span>
             </div>
           </div>
           <div className="content3ChartContainer">

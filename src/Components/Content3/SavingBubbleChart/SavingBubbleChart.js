@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {ScatterChart, Scatter, XAxis, YAxis, ZAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
+import themeColor from '../../../Color'
 
 const data01 = [
   { week: '01/06', index: 1, saving: 70 },
@@ -26,7 +27,7 @@ class SavingBubbleChart extends Component {
       if (active && payload && payload.length) {
         const data = payload[0].payload;
         return (
-          <div style={{ backgroundColor: '#432c39', border: '1px solid #432c39', margin: 0, padding: 5, height: 70 }}>
+          <div style={{ backgroundColor: 'white', margin: 0, padding: 5, height: 70 }}>
             <p>{data.week}</p>
             <p><span>Saving: $</span>{data.saving}</p>
           </div>
@@ -42,11 +43,11 @@ class SavingBubbleChart extends Component {
       return (
         <div>
           <ScatterChart width={300} height={60} margin={{top: 10, right: 0, bottom: 0, left: 0}}>
-            <XAxis type="category" dataKey="week" name="week" interval={0} tickLine={{ transform: 'translate(0, -6)' }} stroke='white' fill='white'/>
-            <YAxis type="number" dataKey="index" height={10} width={25} tick={false} tickLine={false} axisLine={false} stroke='white' fill='white'/>
+            <XAxis type="category" dataKey="week" name="week" interval={0} tickLine={{ transform: 'translate(0, -6)' }} stroke='black'/>
+            <YAxis type="number" dataKey="index" height={10} width={25} tick={false} tickLine={false} axisLine={false} stroke='black'/>
             <ZAxis type="number" dataKey="saving" domain={domain} range={range} />
             <Tooltip cursor={{strokeDasharray: '3 3'}} wrapperStyle={{ zIndex: 100 }} content={this.renderTooltip} />
-            <Scatter data={data01} fill='white'/>
+            <Scatter data={data01} fill='themeColor'/>
           </ScatterChart>
         </div>
       );

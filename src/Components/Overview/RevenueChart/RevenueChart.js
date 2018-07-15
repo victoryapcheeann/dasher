@@ -25,7 +25,7 @@ class RevenueChart extends Component {
                 <span>2017: $21,172</span>
               </div>
               <div className="revenueChartIconStyle">
-                <FaArrowCircleODown size={20} color={"#ffecd2"}/>
+                <FaArrowCircleODown size={20} color={"#f9d423"}/>
                 <span className="textNoChangeColor">1.60%</span>
               </div>
             </div>
@@ -34,7 +34,7 @@ class RevenueChart extends Component {
             <defs>
               <linearGradient id="CoolGradient3" x1="0" x2="1" y1="0" y2="0">
                 <stop offset="0%" stopColor="#ff9a9e" stopOpacity={1}/>
-                <stop offset="100%" stopColor="#ffecd2" stopOpacity={1} />
+                <stop offset="100%" stopColor="#f9d423" stopOpacity={1} />
               </linearGradient>
               <XAxis/>
             </defs>
