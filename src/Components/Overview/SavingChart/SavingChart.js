@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './SavingChart.css';
-import { LineChart, Line, Tooltip, XAxis } from 'recharts';
+import { LineChart, Line, Tooltip, XAxis, ResponsiveContainer  } from 'recharts';
 import FaArrowCircleOUp from 'react-icons/lib/fa/arrow-circle-o-up';
 
 const data = [
@@ -29,16 +29,16 @@ class SavingChart extends Component {
               </div>
             </div>
           </div>
-          <LineChart width={300} height={100} data={data}>
-            <defs>
-              <linearGradient id="CoolGradient2" x1="0" x2="1" y1="0" y2="0">
-                <stop offset="0%" stopColor="#DFFFCD" stopOpacity={1}/>
-                <stop offset="100%" stopColor="#39F3BB" stopOpacity={1} />
-              </linearGradient>
-              <XAxis/>
-            </defs>
-            <Line type="monotone" dataKey="uv" stroke='url(#CoolGradient2)' strokeWidth={5} dot={false}/>
-          </LineChart>
+            <LineChart width={300} height={100} data={data}>
+              <defs>
+                <linearGradient id="CoolGradient2" x1="0" x2="1" y1="0" y2="0">
+                  <stop offset="0%" stopColor="#DFFFCD" stopOpacity={1}/>
+                  <stop offset="100%" stopColor="#39F3BB" stopOpacity={1} />
+                </linearGradient>
+                <XAxis/>
+              </defs>
+              <Line type="monotone" dataKey="uv" stroke='url(#CoolGradient2)' strokeWidth={5} dot={false}/>
+            </LineChart>
         </div>
       );
   }

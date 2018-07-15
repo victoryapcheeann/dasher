@@ -10,7 +10,7 @@
 
 .navStyle {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   box-sizing: border-box;
@@ -25,9 +25,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-}
-
-.navIconStyle {
-  padding-right: 15px;
+  flex-direction: column;
 }
