@@ -21,16 +21,18 @@ class Content2 extends Component {
           <div>
           <AreaChart width={300} height={200} data={data}
             margin={{top: 10, right: 30, left: 0, bottom: 0}}>
+
               <XAxis dataKey="name" stroke="black"/>
               <YAxis stroke="black"/>
               <Tooltip
                cursor={false}
                labelStyle={{color: "black"}}
               />
-              <Legend />
             <Area type='monotone' dataKey='Forex' stackId="1" stroke='#fe5196' fill='#fe5196' className="areaChartContainer"/>
             <Area type='monotone' dataKey='Futures' stackId="1" stroke='#f4d03f' fill='#f4d03f' className="areaChartContainer"/>
             <Area type='monotone' dataKey='Options' stackId="1" stroke='#16a085' fill='#16a085' className="areaChartContainer"/>
+            <Legend wrapperStyle={{left: 30, bottom: -15}}/>
+
           </AreaChart>
         </div>
           <div className="content2ChartStyle">

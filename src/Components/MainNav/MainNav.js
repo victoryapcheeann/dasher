@@ -16,7 +16,7 @@ class mainNav extends Component {
     return (
       <div className="subNavContainer">
         <ul className="navStyle" style={{listStyle:'none'}}>
-            <li className="navItemStyle">
+            <li className="navItemStyle step2">
               <FaCartArrowDown size={20} color={'themeColor'} className="navIconStyle"/>
             </li>
             <li className="navItemStyle">

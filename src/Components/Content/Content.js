@@ -26,7 +26,7 @@ class Content extends Component {
                 cursor={false}
                 labelStyle={{color: 'black'}}
                />
-               <Legend />
+               <Legend wrapperStyle={{left: 30, bottom: -15}}/>
                <Bar dataKey="Stock" fill="#f9d423" />
                <Bar dataKey="Bonds" fill="#24d292" />
             </BarChart>

@@ -8,17 +8,6 @@ import FaLineChart from 'react-icons/lib/fa/line-chart'
 import MdMailOutline from 'react-icons/lib/md/mail-outline'
 
 class MainHead extends Component{
-  constructor(props) {
-    super(props);
-    this.state = {condition: false};
-  }
-
-  handleClick() {
-    this.setState({
-      condition: !this.state.condition
-    })
-  }
-
   render() {
     return (
       <div className="subHeadContainer">
@@ -30,8 +19,8 @@ class MainHead extends Component{
         </div>
         <div className="headerIconContainer">
           <div className="headIconPaddingStyle">
-            <MdHelpOutline size={20} color={"themeColor"} className="headIconStyle"/>
-            <span>Help</span>
+            <MdHelpOutline size={20} color={"transparent"} className="headIconStyle step1"/>
+            <span>Tour</span>
           </div>
           <div className="headIconPaddingStyle">
             <FaLineChart size={20} color={"themeColor"} className="headIconStyle"/>
