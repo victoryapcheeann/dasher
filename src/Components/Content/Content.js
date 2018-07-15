@@ -37,15 +37,15 @@ class Content extends Component {
               <div className="contentChartDescriptionStyle">
                 <span>Stock</span>
                 <span className="contentChartIconStyle">
-                  <FaArrowCircleOUp size={20} color={"lightgreen"}/>
-                  <span className="textIncreaseColor">54.64%</span>
+                  <FaArrowCircleOUp size={20} color={"white"}/>
+                  <span>54.64%</span>
                 </span>
               </div>
               <div className="contentChartDescriptionStyle">
                 <span>Bond</span>
                 <span className="contentChartIconStyle">
-                  <FaArrowCircleOUp size={20} color={"#ffecd2"}/>
-                  <span className="textNoChangeColor">4.64%</span>
+                  <FaArrowCircleOUp size={20} color={"white"}/>
+                  <span>4.64%</span>
                 </span>
               </div>
             </div>

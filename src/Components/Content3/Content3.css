@@ -5,8 +5,8 @@
   margin-top: 20px;
   max-width: 80%;
   border-radius: 48px;
-background-image: linear-gradient(to bottom, #16a085 0%, #C7C704 150%);
-  box-shadow: 5px 5px 20px 0px #C7C704;
+  background-image: linear-gradient(to bottom, #16a085 0%, #C7C704 190%);
+  box-shadow: 10px 10px 13px 0px rgba(22,160,133,1);
   display: flex;
   align-items: center;
   justify-content: space-around;
