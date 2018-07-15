@@ -8,30 +8,44 @@ const data = [
           {
             name: 'Rental',
             children: [
-              { name: '1', size: 1302 },
-              { name: '2', size: 24593 },
-              { name: '3', size: 652 },
-              { name: '4', size: 636 },
-              { name: '5', size: 6703 },
+              { name: 'House 1', size: 1302 },
+              { name: 'House 2', size: 4593 },
+              { name: 'House 3', size: 652 },
+              { name: 'House 4', size: 636 },
+              { name: 'House 5', size: 6703 },
             ],
           },
           {
-            name: 'Property taxes',
+            name: 'Taxes',
             children: [
-              { name: '1', size: 1302 },
-              { name: '2', size: 24593 }
+              { name: 'Tax 1', size: 1302 },
+              { name: 'Tax 2', size: 4453 }
             ],
           },
           {
             name: 'Daycare',
             children: [
-              { name: '1', size: 2138 },
-              { name: '2', size: 3824 }
+              { name: 'Daycare 1', size: 5138 },
+              { name: 'Daycare 2', size: 3824 }
             ],
           },
+          {
+            name: 'Eating out',
+            children: [
+              { name: 'Eat 1', size: 2138 },
+              { name: 'Eat 2', size: 13824 }
+            ],
+          },
+          {
+            name: 'Entertainment',
+            children: [
+              { name: 'TV 1', size: 11138 },
+              { name: 'TV 2', size: 13824 }
+            ],
+          }
         ];
 
-const COLORS = ['#8889DD', '#9597E4', '#8DC77B', '#A5D297', '#E2CF45', '#F8C12D'];
+const COLORS = ['#C70466', '#D0D00F' , '#0A84FF', '#00CC66', '#E58728'];
 
 var createReactClass = require('create-react-class');
 const CustomizedContent = createReactClass({
@@ -97,7 +111,7 @@ const CustomTooltip  = createReactClass({
       const { payload, label } = this.props;
       return (
         <div className="custom-tooltip">
-          <p className="label">{`${payload[0].value}`}</p>
+          <p className="tooltiplabel">{`${payload[0].payload.name} : ${payload[0].value}`}</p>
         </div>
       );
     }
@@ -121,7 +135,6 @@ class ExpenseTreemap extends Component {
             content={<CustomizedContent colors={COLORS}/>}>
             <Tooltip
              content={<CustomTooltip/>}
-             cursor={false}
             />
           </Treemap>
         </div>

@@ -5,7 +5,8 @@
   margin-top: 20px;
   max-width: 80%;
   border-radius: 48px;
-  background-color: Midnightblue;
+  background-image: linear-gradient(to top, #e7627d 0%, #b8235a 20%, #801357 40%, #3d1635 60%, #1c1a27 100%);
+  box-shadow: 10px 10px 30px 0px #e7627d;
   display: flex;
   align-items: center;
   justify-content: space-around;

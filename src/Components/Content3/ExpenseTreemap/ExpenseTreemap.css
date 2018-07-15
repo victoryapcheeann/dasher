@@ -1,3 +1,8 @@
 .custom-tooltip {
-  background-color: red;
+  background-color: #432c39;
+}
+
+.tooltiplabel {
+  color: white;
+  padding: 10px;
 }

@@ -28,8 +28,8 @@ class Content extends Component {
                />
                <Legend />
                <ReferenceLine y={0} stroke='white'/>
-               <Bar dataKey="Stock" fill="#a8edea" />
-               <Bar dataKey="Bonds" fill="#fed6e3" />
+               <Bar dataKey="Stock" fill="#45EC99" />
+               <Bar dataKey="Bonds" fill="#FCFC8C" />
             </BarChart>
           <div className="contentChartStyle">
             <span>Quarterly Performance <br/> Stock & Bond</span>
