@@ -1,23 +1,32 @@
+.content3Container {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
 .content3ChartContainer {
   padding: 20px;
   margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   max-width: 80%;
   border-radius: 48px;
   background-image: linear-gradient(to bottom, #16a085 0%, #C7C704 190%);
-  box-shadow: 10px 10px 13px 0px rgba(22,160,133,1);
+  box-shadow: 5px 5px 20px 0px #C7C704;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .content3ChartStyle {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .content3ChartDescriptionStyle {
@@ -25,10 +34,5 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: row;
-  margin: 5px;
-}
-
-.content3ChartIconStyle {
-  margin-left: 10px;
-  color: #ffecd2;
+  margin-top: 10px;
 }

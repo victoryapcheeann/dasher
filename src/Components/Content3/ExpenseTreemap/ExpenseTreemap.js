@@ -8,39 +8,37 @@ const data = [
           {
             name: 'Rental',
             children: [
-              { name: 'House 1', size: 1302 },
-              { name: 'House 2', size: 4593 },
-              { name: 'House 3', size: 652 },
-              { name: 'House 4', size: 636 },
-              { name: 'House 5', size: 6703 },
+              { name: 'House', size: 302 },
+              { name: 'Car', size: 133 },
+              { name: 'Machine', size: 52 }
             ],
           },
           {
             name: 'Taxes',
             children: [
-              { name: 'Tax 1', size: 1302 },
-              { name: 'Tax 2', size: 4453 }
+              { name: 'Tax 1', size: 102 },
+              { name: 'Tax 2', size: 53 }
             ],
           },
           {
             name: 'Daycare',
             children: [
-              { name: 'Daycare 1', size: 5138 },
-              { name: 'Daycare 2', size: 3824 }
+              { name: 'Daycare 1', size: 68 },
+              { name: 'Daycare 2', size: 124 }
             ],
           },
           {
             name: 'Eating out',
             children: [
-              { name: 'Eat 1', size: 2138 },
-              { name: 'Eat 2', size: 13824 }
+              { name: 'Eat 1', size: 58 },
+              { name: 'Eat 2', size: 144 }
             ],
           },
           {
             name: 'Entertainment',
             children: [
-              { name: 'TV 1', size: 11138 },
-              { name: 'TV 2', size: 13824 }
+              { name: 'Bowling', size: 138 },
+              { name: 'Movie', size: 124 }
             ],
           }
         ];
@@ -126,7 +124,7 @@ class ExpenseTreemap extends Component {
         <div>
           <Treemap
           	width={300}
-            height={150}
+            height={80}
             data={data}
             dataKey="size"
             ratio={4/3}

@@ -22,7 +22,7 @@
 .main-nav {
   grid-area: nav;
   display: flex;
-  width: 100%;
+  width: auto;
   position: relative;
   margin-bottom: 0px;
   margin-top: 0px;

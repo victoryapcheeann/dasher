@@ -1,16 +1,10 @@
 @media (max-width: 1100px) {
   .content2ChartContainer {
     flex-direction: column;
-    max-width: 60%;
+    max-width: 80%;
   }
 
   .content2ChartStyle {
     margin-top: 30px;
-  }
-}
-
-@media (max-width: 700px) {
-  .content2ChartContainer {
-    max-width: 80%;
   }
 }
