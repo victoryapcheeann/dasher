@@ -1,0 +1,33 @@
+.content3ChartContainer {
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 80%;
+  border-radius: 48px;
+  background-color: Midnightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.content3ChartStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.content3ChartDescriptionStyle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.content3ChartIconStyle {
+  margin-left: 10px;
+  color: #ffecd2;
+}

@@ -8,9 +8,9 @@ import FaArrowCircleOUp from 'react-icons/lib/fa/arrow-circle-o-up';
 import FaArrowCircleODown from 'react-icons/lib/fa/arrow-circle-o-down';
 
 const data = [
-      {name: 'Apr', stock: 4000, bonds: 2400, amt: 2400},
-      {name: 'May', stock: 9000, bonds: 1398, amt: 2210},
-      {name: 'Jun', stock: -2000, bonds: -1800, amt: 2290}
+      {name: 'Apr', Stock: 4000, Bonds: 2400, amt: 2400},
+      {name: 'May', Stock: 9000, Bonds: 1398, amt: 2210},
+      {name: 'Jun', Stock: -2000, Bonds: -1800, amt: 2290}
 ];
 
 class Content extends Component {
@@ -28,8 +28,8 @@ class Content extends Component {
                />
                <Legend />
                <ReferenceLine y={0} stroke='white'/>
-               <Bar dataKey="stock" fill="#a8edea" />
-               <Bar dataKey="bonds" fill="#fed6e3" />
+               <Bar dataKey="Stock" fill="#a8edea" />
+               <Bar dataKey="Bonds" fill="#fed6e3" />
             </BarChart>
           <div className="contentChartStyle">
             <span>Quarterly Performance <br/> Stock & Bond</span>

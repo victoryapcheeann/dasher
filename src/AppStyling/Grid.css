@@ -7,7 +7,6 @@
     "content"
     "content2"
     "content3"
-    "content4"
     "footer";
 }
 
@@ -28,6 +27,7 @@
   margin-bottom: 0px;
   margin-top: 0px;
   height:auto;
+  box-shadow: 10px 10px 29px 2px #330867;
 }
 
 .overview {
@@ -37,22 +37,20 @@
 
 .content {
   grid-area: content;
-  background-image: linear-gradient(to top, #330867 0%, #30cfd0 100%);
+  background-color: #30cfd0;
 }
 
 .content2 {
   grid-area: content2;
+  background-color: #30cfd0;
 }
 
 .content3 {
   grid-area: content3;
-}
-
-.content4 {
-  grid-area: content4;
-  background-color: green;
+  background-color: #30cfd0;
 }
 
 .main-footer {
   grid-area: footer;
+  background-color: #30cfd0;
 }
