@@ -32,7 +32,6 @@ class Content2 extends Component {
             <Area type='monotone' dataKey='Futures' stackId="1" stroke='#f4d03f' fill='#f4d03f' className="areaChartContainer"/>
             <Area type='monotone' dataKey='Options' stackId="1" stroke='#16a085' fill='#16a085' className="areaChartContainer"/>
             <Legend wrapperStyle={{left: 30, bottom: -15}}/>
-
           </AreaChart>
         </div>
           <div className="content2ChartStyle">
